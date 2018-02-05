@@ -1,0 +1,61 @@
+<!-- 
+Variables $acUrl, $response, $relayState and $additionalParams will be replaced by the corrosponding values  
+-->
+<html>
+
+<head>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+</head>
+<body>
+<p>You are now redirected back to $acUrl
+    If the redirection fails, please click the post button.</p>
+
+<form method='post' action='$acUrl'>
+    <p>
+        <!--$params-->
+        <!--$additionalParams-->
+        <button type='submit'>POST</button>
+    </p>
+</form>
+
+<script type='text/javascript'>
+    $(document).ready(function () {
+        var url = '$acUrl';
+
+        if (url === "http://localhost:8080/travelocity.com/home.jsp") {
+            $.ajax({
+                type: "POST",
+                contentType: 'application/x-www-form-urlencoded',
+                headers: {
+                    "Access-Control-Allow-Origin": "*"
+                },
+                data: $(document.forms[0]).serialize(),
+                url: "https://localhost:9443/CustomEndpoint-1/headerFormatter/format",
+                success: function (data, textStatus, jqXHR) {
+                    if (jqXHR.status === 200) {
+                        $.ajax({
+                            type: "POST",
+                            contentType: 'application/x-www-form-urlencoded',
+                            headers: {
+                                "Access-Control-Allow-Origin": "*",
+                                "Username": data.username
+                            },
+                            data: $(document.forms[0]).serialize(),
+                            url: "https://localhost:8443/travelocity.com/home.jsp",
+                            error: function () {
+                                alert("An error occurred");
+                            }
+                        });
+                    }
+                },
+                error: function () {
+                    alert("An error occurred");
+                }
+            });
+        } else {
+            document.forms[0].submit();
+        }
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1512693346610" transient="false">
+	<site updateable="true" url="platform:/base/" enabled="true" policy="USER-EXCLUDE">
+		<feature id="org.wso2.carbon.bpel.server" version="4.4.26" url="features/org.wso2.carbon.bpel.server_4.4.26/">
+		</feature>
+		<feature id="org.wso2.carbon.humantask.server" version="4.4.26" url="features/org.wso2.carbon.humantask.server_4.4.26/">
+		</feature>
+		<feature id="org.wso2.carbon.event.stream.server" version="5.1.21" url="features/org.wso2.carbon.event.stream.server_5.1.21/">
+		</feature>
+		<feature id="org.wso2.carbon.logging.mgt" version="4.6.12" url="features/org.wso2.carbon.logging.mgt_4.6.12/">
+		</feature>
+		<feature id="org.wso2.carbon.metrics.ui" version="1.2.2" url="features/org.wso2.carbon.metrics.ui_1.2.2/">
+		</feature>
+		<feature id="org.wso2.carbon.databridge.commons.server" version="5.1.21" url="features/org.wso2.carbon.databridge.commons.server_5.1.21/">
+		</feature>
+		<feature id="org.wso2.carbon.tenant.common.server" version="4.6.4" url="features/org.wso2.carbon.tenant.common.server_4.6.4/">
+		</feature>
+		<feature id="org.wso2.carbon.event.output.adapter.rdbms.server" version="5.1.21" url="features/org.wso2.carbon.event.output.adapter.rdbms.server_5.1.21/">
+		</feature>
+		<feature id="org.wso2.carbon.registry.core.common" version="4.6.25" url="features/org.wso2.carbon.registry.core.common_4.6.25/">
+		</feature>
+		<feature id="org.wso2.carbon.deployment.synchronizer.server" version="4.6.12" url="features/org.wso2.carbon.deployment.synchronizer.server_4.6.12/">
+		</feature>
+		<feature id="org.wso2.carbon.tenant.common" version="4.6.4" url="features/org.wso2.carbon.tenant.common_4.6.4/">
+		</feature>
+		<feature id="org.wso2.carbon.core.common" version="4.4.20" url="features/org.wso2.carbon.core.common_4.4.20/">
+		</feature>
+		<feature id="org.wso2.carbon.security.mgt.server" version="5.10.86" url="features/org.wso2.carbon.security.mgt.server_5.10.86/">
+		</feature>
+		<feature id="org.wso2.carbon.soaptracer.server" version="4.6.12" url="features/org.wso2.carbon.soaptracer.server_4.6.12/">
+		</feature>
+		<feature id="org.wso2.carbon.event.output.adapter.mqtt.server" version="5.1.21" url="features/org.wso2.carbon.event.output.adapter.mqtt.server_5.1.21/">
+		</feature>
+		<feature id="org.wso2.carbon.ldap.server.server" version="5.1.4" url="features/org.wso2.carbon.ldap.server.server_5.1.4/">
+		</feature>
+		<feature id="org.wso2.carbon.event.common" version="4.6.12" url="features/org.wso2.carbon.event.common_4.6.12/">
+		</feature>
+		<feature id="org.wso2.carbon.event.output.adapter.websocket.server" version="5.1.21" url="features/org.wso2.carbon.event.output.adapter.websocket.server_5.1.21/">
+		</feature>
+		<feature id="org.wso2.carbon.registry.core.server" version="4.6.25" url="features/org.wso2.carbon.registry.core.server_4.6.25/">
+		</feature>
+		<feature id="org.wso2.carbon.registry.resource.properties.server" version="4.6.25" url="features/org.wso2.carbon.registry.resource.properties.server_4.6.25/">
+		</feature>
+		<feature id="org.wso2.carbon.registry.resource.properties.ui" version="4.6.25" url="features/org.wso2.carbon.registry.resource.properties.ui_4.6.25/">
+		</feature>
+		<feature id="org.wso2.carbon.registry.contentsearch" version="4.6.25" url="features/org.wso2.carbon.registry.contentsearch_4.6.25/">
+		</feature>
+		<feature id="org.wso2.carbon.registry.ui.menu" version="4.6.25" url="features/org.wso2.carbon.registry.ui.menu_4.6.25/">
+		</feature>
+		<feature id="org.wso2.carbon.tenant.common.ui" version="4.6.4" url="features/org.wso2.carbon.tenant.common.ui_4.6.4/">
+		</feature>
+		<feature id="org.wso2.carbon.core.server" version="4.4.20" url="features/org.wso2.carbon.core.server_4.4.20/">
+		</feature>
+		<feature id="org.wso2.carbon.logging.mgt.ui" version="4.6.12" url="features/org.wso2.carbon.logging.mgt.ui_4.6.12/">
+		</feature>
+		<feature id="org.wso2.carbon.deployment.synchronizer.subversion" version="4.6.12" url="features/org.wso2.carbon.deployment.synchronizer.subversion_4.6.12/">
+		</feature>
+		<feature id="org.wso2.carbon.tenant.mgt.common" version="4.6.12" url="features/org.wso2.carbon.tenant.mgt.common_4.6.12/">
+		</feature>
+		<feature id="org.wso2.carbon.core.ui" version="4.4.20" url="features/org.wso2.carbon.core.ui_4.4.20/">
+		</feature>
+		<feature id="org.wso2.carbon.event.processor.manager.core" version="5.1.21" url="features/org.wso2.carbon.event.processor.manager.core_5.1.21/">
+		</feature>
+		<feature id="org.wso2.carbon.event.server" version="4.6.12" url="features/org.wso2.carbon.event.server_4.6.12/">
+		</feature>
+		<feature id="org.wso2.carbon.core.runtime" version="4.4.20" url="features/org.wso2.carbon.core.runtime_4.4.20/">
+		</feature>
+		<feature id="org.wso2.carbon.event.output.adapter.kafka.server" version="5.1.21" url="features/org.wso2.carbon.event.output.adapter.kafka.server_5.1.21/">
+		</feature>
+		<feature id="org.wso2.carbon.event.output.adapter.ui.server" version="5.1.21" url="features/org.wso2.carbon.event.output.adapter.ui.server_5.1.21/">
+		</feature>
+		<feature id="org.wso2.carbon.event.output.adapter.sms.server" version="5.1.21" url="features/org.wso2.carbon.event.output.adapter.sms.server_5.1.21/">
+		</feature>
+		<feature id="org.wso2.carbon.event.output.adapter.logger.server" version="5.1.21" url="features/org.wso2.carbon.event.output.adapter.logger.server_5.1.21/">
+		</feature>
+		<feature id="org.wso2.carbon.event.output.adapter.websocket.local.server" version="5.1.21" url="features/org.wso2.carbon.event.output.adapter.websocket.local.server_5.1.21/">
+		</feature>
+		<feature id="org.wso2.carbon.event.output.adapter.email.server" version="5.1.21" url="features/org.wso2.carbon.event.output.adapter.email.server_5.1.21/">
+		</feature>
+		<feature id="org.wso2.carbon.ldap.server" version="5.1.4" url="features/org.wso2.carbon.ldap.server_5.1.4/">
+		</feature>
+		<feature id="org.wso2.carbon.module.mgt.server" version="4.7.6" url="features/org.wso2.carbon.module.mgt.server_4.7.6/">
+		</feature>
+		<feature id="org.wso2.carbon.event.publisher.aggregate" version="5.1.21" url="features/org.wso2.carbon.event.publisher.aggregate_5.1.21/">
+		</feature>
+		<feature id="org.wso2.carbon.unifiedendpoint.server" version="4.4.26" url="features/org.wso2.carbon.unifiedendpoint.server_4.4.26/">
+		</feature>
+		<feature id="org.wso2.carbon.metrics" version="1.2.2" url="features/org.wso2.carbon.metrics_1.2.2/">
+		</feature>
+		<feature id="org.wso2.carbon.tenant.mgt.common.server" version="4.6.12" url="features/org.wso2.carbon.tenant.mgt.common.server_4.6.12/">
+		</feature>
+		<feature id="org.wso2.carbon.event.output.adapter.server" version="5.1.21" url="features/org.wso2.carbon.event.output.adapter.server_5.1.21/">
+		</feature>
+		<feature id="org.wso2.carbon.system.statistics.server" version="4.6.12" url="features/org.wso2.carbon.system.statistics.server_4.6.12/">
+		</feature>
+		<feature id="org.wso2.carbon.logging.mgt.server" version="4.6.12" url="features/org.wso2.carbon.logging.mgt.server_4.6.12/">
+		</feature>
+		<feature id="org.wso2.carbon.databridge.datapublisher" version="5.1.21" url="features/org.wso2.carbon.databridge.datapublisher_5.1.21/">
+		</feature>
+		<feature id="org.wso2.carbon.metrics.server" version="1.2.2" url="features/org.wso2.carbon.metrics.server_1.2.2/">
+		</feature>
+		<feature id="org.wso2.carbon.core" version="4.4.20" url="features/org.wso2.carbon.core_4.4.20/">
+		</feature>
+		<feature id="org.wso2.carbon.event.output.adapter.http.server" version="5.1.21" url="features/org.wso2.carbon.event.output.adapter.http.server_5.1.21/">
+		</feature>
+		<feature id="org.wso2.carbon.webapp.mgt.server" version="4.7.6" url="features/org.wso2.carbon.webapp.mgt.server_4.7.6/">
+		</feature>
+		<feature id="org.wso2.carbon.event.output.adapter.wso2event.server" version="5.1.21" url="features/org.wso2.carbon.event.output.adapter.wso2event.server_5.1.21/">
+		</feature>
+		<feature id="org.wso2.carbon.service.mgt.server" version="4.7.6" url="features/org.wso2.carbon.service.mgt.server_4.7.6/">
+		</feature>
+		<feature id="org.wso2.carbon.tenant.mgt.common.ui" version="4.6.12" url="features/org.wso2.carbon.tenant.mgt.common.ui_4.6.12/">
+		</feature>
+		<feature id="org.wso2.carbon.registry.resource.properties" version="4.6.25" url="features/org.wso2.carbon.registry.resource.properties_4.6.25/">
+		</feature>
+		<feature id="org.wso2.carbon.deployment.synchronizer" version="4.6.12" url="features/org.wso2.carbon.deployment.synchronizer_4.6.12/">
+		</feature>
+		<feature id="org.wso2.carbon.registry.core.ui" version="4.6.25" url="features/org.wso2.carbon.registry.core.ui_4.6.25/">
+		</feature>
+		<feature id="org.wso2.carbon.identity.user.store.remote.server" version="5.1.3" url="features/org.wso2.carbon.identity.user.store.remote.server_5.1.3/">
+		</feature>
+		<feature id="org.wso2.carbon.event.application.deployer" version="5.1.21" url="features/org.wso2.carbon.event.application.deployer_5.1.21/">
+		</feature>
+		<feature id="org.wso2.carbon.event.publisher.server" version="5.1.21" url="features/org.wso2.carbon.event.publisher.server_5.1.21/">
+		</feature>
+		<feature id="org.wso2.carbon.identity.authenticator.saml2.sso.ui" version="5.2.3" url="features/org.wso2.carbon.identity.authenticator.saml2.sso.ui_5.2.3/">
+		</feature>
+		<feature id="org.wso2.carbon.registry.search.ui" version="4.6.25" url="features/org.wso2.carbon.registry.search.ui_4.6.25/">
+		</feature>
+		<feature id="org.wso2.carbon.attachment.mgt" version="4.4.26" url="features/org.wso2.carbon.attachment.mgt_4.4.26/">
+		</feature>
+		<feature id="org.wso2.carbon.event.output.adapter.jms.server" version="5.1.21" url="features/org.wso2.carbon.event.output.adapter.jms.server_5.1.21/">
+		</feature>
+		<feature id="org.wso2.carbon.databridge.commons.binary.server" version="5.1.21" url="features/org.wso2.carbon.databridge.commons.binary.server_5.1.21/">
+		</feature>
+		<feature id="org.wso2.carbon.databridge.commons.thrift.server" version="5.1.21" url="features/org.wso2.carbon.databridge.commons.thrift.server_5.1.21/">
+		</feature>
+		<feature id="org.wso2.carbon.user.mgt.server" version="5.10.86" url="features/org.wso2.carbon.user.mgt.server_5.10.86/">
+		</feature>
+		<feature id="org.wso2.carbon.event.output.adapter" version="5.1.21" url="features/org.wso2.carbon.event.output.adapter_5.1.21/">
+		</feature>
+		<feature id="org.wso2.carbon.registry.core" version="4.6.25" url="features/org.wso2.carbon.registry.core_4.6.25/">
+		</feature>
+		<feature id="org.wso2.carbon.identity.user.store.remote" version="5.1.3" url="features/org.wso2.carbon.identity.user.store.remote_5.1.3/">
+		</feature>
+		<feature id="org.wso2.carbon.event.processor.manager.commons" version="5.1.21" url="features/org.wso2.carbon.event.processor.manager.commons_5.1.21/">
+		</feature>
+		<feature id="org.wso2.carbon.event.output.adapter.cassandra.server" version="5.1.21" url="features/org.wso2.carbon.event.output.adapter.cassandra.server_5.1.21/">
+		</feature>
+		<feature id="org.wso2.carbon.identity.authenticator.saml2.sso.server" version="5.2.3" url="features/org.wso2.carbon.identity.authenticator.saml2.sso.server_5.2.3/">
+		</feature>
+		<feature id="org.wso2.carbon.registry.contentsearch.server" version="4.6.25" url="features/org.wso2.carbon.registry.contentsearch.server_4.6.25/">
+		</feature>
+		<feature id="org.wso2.carbon.databridge.agent.server" version="5.1.21" url="features/org.wso2.carbon.databridge.agent.server_5.1.21/">
+		</feature>
+		<feature id="org.wso2.carbon.event.output.adapter.soap.server" version="5.1.21" url="features/org.wso2.carbon.event.output.adapter.soap.server_5.1.21/">
+		</feature>
+		<feature id="org.wso2.carbon.attachment.mgt.server" version="4.4.26" url="features/org.wso2.carbon.attachment.mgt.server_4.4.26/">
+		</feature>
+	</site>
+</config>

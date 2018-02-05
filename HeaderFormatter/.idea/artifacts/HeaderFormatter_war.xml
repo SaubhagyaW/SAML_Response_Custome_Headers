@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="HeaderFormatter:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="CustomEndpoint-1.war">
+      <element id="artifact" artifact-name="HeaderFormatter:war exploded" />
+    </root>
+  </artifact>
+</component>

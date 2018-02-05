@@ -1,0 +1,14 @@
+dn: m-oid=1.3.6.1.4.1.37505.1.62,ou=attributeTypes,cn=other,ou=schema
+objectClass: top
+objectClass: metaTop
+objectClass: metaAttributeType
+m-oid: 1.3.6.1.4.1.37505.1.62
+m-collective: FALSE
+m-equality: caseIgnoreMatch
+m-name: askPassword
+m-nousermodification: FALSE
+m-obsolete: FALSE
+m-singlevalue: FALSE
+m-substr: caseIgnoreSubstringsMatch
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.15
+m-usage: USER_APPLICATIONS
